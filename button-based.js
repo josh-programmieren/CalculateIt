@@ -5,8 +5,11 @@ function getDisplay() {
 
 function clearDisplay() {
     var display = getDisplay();
-    for (var i = 0; i < display.innerHTML.length; i++) {
+    var len = display.innerHTML.length;
+    var counter = 0;
+    while (counter < len) {
         backspace();
+        counter++;
     }
     console.log("clear");
 }
