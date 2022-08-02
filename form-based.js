@@ -19,7 +19,7 @@ var calcbtn = document.getElementById('calc');
 var resetbtn = document.getElementById('reset');
 expressionField.addEventListener('keyup', function(event) {
     if (event.code === 'Enter') {
-        var allowed = ['+', '-', '*', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+        var allowed = ['+', '-', '*', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '(', ')'];
         var valid = true;
         var expression = expressionField.value;
         for (var i = 0; i < expression.length; i++) {
@@ -42,7 +42,7 @@ expressionField.addEventListener('keyup', function(event) {
     }
 }, false);
 calcbtn.addEventListener('click', function() {
-    var allowed = ['+', '-', '*', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+    var allowed = ['+', '-', '*', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '(', ')'];
     var valid = true;
     var expression = expressionField.value;
     for (var i = 0; i < expression.length; i++) {
