@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button based mode</title>
+    <link rel="stylesheet" href="button-based.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="button-based.html">Button based</a></li>
+                <li><a href="form-based.html">Form based</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <h1>Button based mode</h1>
+    </header>
+    <div id="application">
+        <wiv id="display">
+
+    </div>
+    <br>
+    <div id="buttons">
+        <table border="1">
+            <tr>
+                <td class="function"><button onclick="clearDisplay()"> C</button></td>
+                <td class="function"><button onclick="backspace()">back</button></td>
+                <td> </td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td class="number"><button onclick="add(7)">7</button></td>
+                <td class="number"><button onclick="add(8)">8</button></td>
+                <td class="number"><button onclick="add(9)">9</button></td>
+                <td class="operation"><button onclick="add('/')">/</button></td>
+            </tr>
+            <tr>
+                <td class="number"><button onclick="add(4)">4</button></td>
+                <td class="number"><button onclick="add(5)">5</button></td>
+                <td class="number"><button onclick="add(6)">6</button></td>
+                <td class="operation"><button onclick="add('*')">*</button></td>
+            </tr>
+            <tr>
+                <td class="number"><button onclick="add(1)">1</button></td>
+                <td class="number"><button onclick="add(2)">2</button></td>
+                <td class="number"><button onclick="add(3)">3</button></td>
+                <td class="operation"><button onclick="add('-')">-</button></td>
+            </tr>
+            <tr>
+                <td class="number"><button onclick="add(0)">0</button></td>
+                <td class="number"><button onclick="add('.')">.</button></td>
+                <td class="operation"><button onclick="calculate()">=</button></td>
+                <td class="operation"><button onclick="add('+')">+</button></td>
+        </table>
+    </div>
+    </div>
+    <script src="button-based.js"></script>
+</body>
+
+</html>
