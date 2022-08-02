@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form based mode</title>
+    <link rel="stylesheet" href="form-based.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="button-based.html">Button based</a></li>
+                <li><a href="form-based.html">Form based</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <h1>Form based mode </h1>
+    </header>
+    <div id="application">
+        <p id="form">
+            Type what you want to calculate:<br>
+            <input type="text" name="expression" id="expression" placeholder="Type here..."><br>
+            <button id="calc">Calculate</button>
+            <button id="reset">Reset</button>
+        </p>
+        <br>
+        <div id="result">
+            No result yet.
+        </div>
+    </div>
+    <script src="form-based.js"></script>
+</body>
+
+</html>
