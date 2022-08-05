@@ -1,0 +1,14 @@
+{
+    "name": "CalculateIt",
+    "short_name": "Calculator",
+    "description": "CalculateIt is a simple calculator app that allows users to perform basic arithmetic operations.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#f5f5f5",
+    "theme_color": "#f5f5f5",
+    "icons": [{
+        "src": "./assets/icon.png",
+        "sizes": "24x24",
+        "type": "image/png"
+    }]
+}
