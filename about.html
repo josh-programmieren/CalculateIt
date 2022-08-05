@@ -49,7 +49,23 @@
         <p id="saurce">
             This website was created using HTML, CSS, and JavaScript. The source code is available on <a href="https://github.com/josh-programmieren/CalculateIt">GitHub</a>.
         </p>
+        <p id="feedback">
+            <form name="contact" method="post" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required></textarea>
+                <br>
+                <button type="submit" id="submit">Send</button>
+            </form>
+        </p>
     </div>
+    <script src="./js/onSubmit.jsSSS"></script>
 </body>
 
 </html>

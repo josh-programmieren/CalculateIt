@@ -54,3 +54,34 @@ p a:hover {
     border: 1px solid #dda;
     border-radius: 4px;
 }
+
+#contact {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    background-color: #ddd;
+    border: 1px solid #dad;
+    border-radius: 4px;
+}
+
+#feedback {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    background-color: #ccc;
+    border: 1px solid #dda;
+    border-radius: 4px;
+}
+
+#submit {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+    background-color: #ccc;
+    border: 1px solid #dda;
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background-color: #ddd;
+}
