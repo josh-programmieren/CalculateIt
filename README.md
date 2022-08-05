@@ -6,3 +6,5 @@ This calculator has two different modes.
     You can use the web application like a normal calculator. You can press buttons calculate with them.
 ## 2. Text field based mode:
     You can type your operations in a text field, press the "calculate" button and see the result.
+## Online
+[**This site is on Netlify](https://josh-calculate-it.netlify.app/)
